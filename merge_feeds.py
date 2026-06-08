@@ -3,16 +3,16 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 FEEDS = [
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCgBYVHierWVzH2bI88xVwSQ",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCO7kdrr_d4QJJKl_HWyzeIQ",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCbg3UymFZgOLUSTxcuCogJQ",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wE7rHspfyVlE5CvXzsgvw",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCeu_69OspsdxEgjt4MeQjwg",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCzEDsOXNyRDe5Wxr8HnrhXA",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCZVkwvVRbMaNNPoLcCwWrjw",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCn8SUGb1J3qIXpOKJAEjEkw",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCa5I7YP-IxUIYqm3cIgIYGw",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCTWMC-IPz3yW3yGjDPUAKPg",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCCRThPy0M9pfhk1Jhl5wV0w",  # 보험왕 초특급
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UC1oBpjjwMp0WGBfdg-0a5qQ",  # 보험명의 정닥터
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCKlXPhUwfYFZ8S7y-wpwZ2w",  # 보험조각가
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wE7rHspfyVlE5CvXzsgvw",  # 김도형의 보험보상TV
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCvDigULicg0iGXgALkLzGZw",  # 금융상품연구소
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCzEDsOXNyRDe5Wxr8HnrhXA",  # 보험탈출구
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCZVkwvVRbMaNNPoLcCwWrjw",  # 보험e채널
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCn8SUGb1J3qIXpOKJAEjEkw",  # 팀보틀
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCa5I7YP-IxUIYqm3cIgIYGw",  # 보험인사이트
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCYK08O6Y5-tnpn8ngybZCoQ",  # 보험컴퍼니 (구 탑스터)
 ]
 
 items = []
